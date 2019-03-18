@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+
+
 body{
-	font: Segoe;
+	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 	color: #666;
 	margin: 0;
@@ -24,11 +28,12 @@ header h1{
 	color: #010535;
 }
 
-#sec-hero{
+/*#sec-hero{
 	background-image: url("../img/IMG_1219.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	
 	padding: 100px 0;
 	color: #fff;
 	padding-bottom: 90px;
@@ -52,11 +57,33 @@ header h1{
 #sec-hero p{
 	font-size: 14px;
 	color:#FFFFFF;
-	font: Segoe;
+font-family: 'Roboto', sans-serif;
+
 	letter-spacing: 1px;
 	margin-left: 60px;
 	margin-right: 60px;
 padding-bottom: 30px;
+}*/
+header{
+	padding: 20px 0;
+}
+
+#hero{
+	background-image: url("../img/IMG_1219.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 180px 0;
+}
+
+#hero h1{
+	font-size: 80px;
+	font-weight: 650;
+}
+
+#hero p{
+	font-size: 18px;
 }
 
 #sec-title img{
@@ -67,14 +94,16 @@ padding-bottom: 30px;
 
 #sec-title h2{
 	text-align: center;
-	font: Segoe;
+	font-family: 'Roboto', sans-serif;
+
 	font-size: 25px;
 	text-transform: uppercase;
 	color: #010535;
 }
 
 #sec-title h3{
-	font:Segoe;
+	font-family: 'Roboto', sans-serif;
+
 	font-size: 25px;
 	text-transform: uppercase;
 	letter-spacing: 6px;
@@ -89,7 +118,8 @@ padding-bottom: 30px;
 }
 #sec-practice h2 {
 	font-size: 24px;
-	font:Segoe;
+font-family: 'Roboto', sans-serif;
+
     color: #010535;;
 	text-transform: uppercase;
 	letter-spacing: 6px;
@@ -112,7 +142,8 @@ padding-bottom: 30px;
 
 #sec-practice h3{
 	font-size: 15px;
-	font:Segoe;
+font-family: 'Roboto', sans-serif;
+
 	
 	letter-spacing: 5px;
 	font-weight: 500;
@@ -134,7 +165,8 @@ padding-bottom: 30px;
 	color: #aaa;
 	margin-left: 30px;
 	margin-right: 30px;
-	font:Segoe;
+	font-family: 'Roboto', sans-serif;
+
 }
 #sec-practice .fas{
 	font-size: 28px;
@@ -145,6 +177,10 @@ padding-bottom: 30px;
 	background-color: antiquewhite;
 }
 
+#sec-practice h3{
+	text-align: center;
+	text-transform: uppercase;
+}
 #sec-proyectos{
 	padding: 60px;
 	text-align: center;
@@ -163,7 +199,8 @@ padding-bottom: 30px;
 	color: #aaa;
 	margin-left: 30px;
 	margin-right: 30px;
-	font:Segoe;
+	font-family: 'Roboto', sans-serif;
+
     font-size: 16px;
 }
 
@@ -186,6 +223,7 @@ padding-bottom: 30px;
 	color: #fff;
 	border-radius: 30px;
 	text-transform: uppercase;
+	
 }
 
 .icon-counter{
@@ -234,7 +272,7 @@ padding-bottom: 30px;
 #footer-menu{
 	background-color: black;
 	color: #fff;
-	padding: 20px 0;
+	padding: 50px 0;
 }
 #footer-menu h3{
 	font-size: 14px;
@@ -255,12 +293,12 @@ padding-bottom: 30px;
 
 #footer-copy{
 	background-color: #000;
-	color: #E0FF00;
+	color: #FFFFFF;
 	padding: 10px 0;
 	font-size: 12px;
 }
 #footer-copy a{
-    color: #E0FF00;	
+    color: #FFFFFF;	
 	font-size: 14px;
 }
 #footer-copy a:hover{
