@@ -1,0 +1,271 @@
+body{
+	font: Segoe;
+	font-size: 12px;
+	color: #666;
+	margin: 0;
+}
+
+header{
+	background-color: goldenrod;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	top:0;
+	z-index: 9999;
+}
+
+header h1{
+	margin: 0;
+	text-transform: lowercase;
+	letter-spacing: 6px;
+	font-weight: 200;
+	font-size: 14px;
+	color: #010535;
+}
+
+#sec-hero{
+	background-image: url("../img/IMG_1219.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 100px 0;
+	color: #fff;
+	padding-bottom: 90px;
+}
+
+#sec-hero .cuadro {
+	background-color: #010535;
+	text-align:center;
+}
+
+#sec-hero h2{
+	text-transform: uppercase;
+	color: goldenrod;
+	text-align: center;
+}
+
+#sec-hero h3{
+	color: #EFD54D;
+}
+
+#sec-hero p{
+	font-size: 14px;
+	color:#FFFFFF;
+	font: Segoe;
+	letter-spacing: 1px;
+	margin-left: 60px;
+	margin-right: 60px;
+padding-bottom: 30px;
+}
+
+#sec-title img{
+	width: 300px;
+	height: 400px;
+}
+
+
+#sec-title h2{
+	text-align: center;
+	font: Segoe;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #010535;
+}
+
+#sec-title h3{
+	font:Segoe;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-weight: 500;
+	color:#010535;
+	text-align: center;
+	padding: 20px;
+}
+
+#sec-practice{
+	border-bottom: 1px solid #eee;
+}
+#sec-practice h2 {
+	font-size: 24px;
+	font:Segoe;
+    color: #010535;;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-weight: 500;
+	text-align: center;
+	padding: 30px;
+	
+}
+#sec-practice .bg-image{
+	background-image: url("../img/IMG_0794.JPG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-right: 1px solid #eee;
+}
+
+#sec-practice .sec-espacio{
+	padding: 80px 30px;
+}
+
+#sec-practice h3{
+	font-size: 15px;
+	font:Segoe;
+	
+	letter-spacing: 5px;
+	font-weight: 500;
+	color:#010535;	
+}
+#sec-practice .row{
+	margin-top: 10px;
+}
+#sec-practice .icon{
+	border: 1px solid #111;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	color: #E0FF00;
+}
+#sec-practice p{
+	font-size: 10px;
+	letter-spacing: 1px;
+	color: #aaa;
+	margin-left: 30px;
+	margin-right: 30px;
+	font:Segoe;
+}
+#sec-practice .fas{
+	font-size: 28px;
+	color: #010535;
+}
+
+#sec-practice{
+	background-color: antiquewhite;
+}
+
+#sec-proyectos{
+	padding: 60px;
+	text-align: center;
+}
+#sec-proyectos h2{
+	padding: 30px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	font-weight: 500;
+	color: #010535;	
+}
+#sec-proyectos p{
+	padding: 30px;
+	letter-spacing: 1px;
+	font-weight: 400;
+	color: #aaa;
+	margin-left: 30px;
+	margin-right: 30px;
+	font:Segoe;
+    font-size: 16px;
+}
+
+#sec-request{
+	background-color: antiquewhite;
+}
+
+#sec-request .bg-overlay{
+	opacity: 1;
+}
+#sec-request .titulo{
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+#sec-request .btn{
+	background-color: goldenrod;
+	color: #fff;
+	border-radius: 30px;
+	text-transform: uppercase;
+}
+
+.icon-counter{
+	font-size: 40px;
+}
+
+
+#sec-blog .titulo,
+#sec-blog .subtitulo{
+	text-align: center;
+}
+#sec-blog .subtitulo{
+	font-size: 16px;
+	color: #000;
+	width: 60%;
+	margin: 20px auto 45px;
+}
+
+.blog-info{
+	margin-top: 20px;
+}
+.blog-info .title{
+	border-bottom: 1px dotted #c2c2c2;
+	margin-bottom: 5px;
+}
+.blog-info .title h4{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.blog-info .title p{
+	color: #aaa;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.blog-info .title a,
+.blog-info .content a{
+	color: #000;	
+}
+.blog-info .title a:hover,
+.blog-info .content a:hover{
+	color: #aaa;
+	text-decoration: none;
+}
+
+#footer-menu{
+	background-color: black;
+	color: #fff;
+	padding: 20px 0;
+}
+#footer-menu h3{
+	font-size: 14px;
+	text-transform: uppercase;
+	border-bottom: 1px dotted #666;
+	letter-spacing: 4px;
+	padding-bottom: 5px;
+}
+#footer-menu ul{
+	list-style: none;
+}
+#footer-menu ul a{
+	color: #aaa;	
+}
+#footer-menu ul a:hover{
+	color: #fff;	
+}
+
+#footer-copy{
+	background-color: #000;
+	color: #E0FF00;
+	padding: 10px 0;
+	font-size: 12px;
+}
+#footer-copy a{
+    color: #E0FF00;	
+	font-size: 14px;
+}
+#footer-copy a:hover{
+	color: #fff;
+	font-size: 14px;
+letter-spacing: 2px
+}
+
